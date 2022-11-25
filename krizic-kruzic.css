@@ -1,0 +1,61 @@
+body {
+    color:  rgb(35, 76, 114);
+    font-weight: bold;
+}
+
+#main_container {
+  margin: auto;
+  width: 25em;
+  height: 36em;
+  border: 0.3em solid rgb(35, 76, 114);
+  border-radius: 0.5em;
+  padding: 1em;
+  display: flex;
+}
+
+#imena_container {
+  display: block;
+}
+
+.imena {
+  margin-bottom: 1em;
+  padding: .2em;
+  color: rgb(35, 76, 114);
+  font-weight: bold;
+  border: .2em solid rgb(35, 76, 114);
+  border-radius: 0.2em;
+}
+
+table {
+    border: 0.25em solid rgb(35, 76, 114);
+    border-collapse: collapse;
+    margin: 2em auto;
+    width: 15em;
+    height: 15em;
+}
+
+table td {
+    border: 0.3em solid rgb(35, 76, 114);
+    background-color: #78c4db;
+}
+
+table input {
+    width: 88%;
+    height: 88%;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 0.2em;
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    border: 0.3em solid rgb(44, 95, 143);
+    border-radius: 0.8em;
+    margin: 1em auto;
+    padding: .8em;
+    background: rgb(35, 76, 114);
+    color: white;
+}
